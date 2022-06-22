@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimaryDark">#263238</color>   &lt;!&ndash;90%&ndash;&gt;-->
+    <!--<color name="colorPrimary">#37474F</color>       &lt;!&ndash;80%&ndash;&gt;-->
+    <!--<color name="colorAccent">#607D8B</color>        &lt;!&ndash;50%&ndash;&gt;-->
+
+
+    <color name="colorGray50">#FAFAFA</color>
+    <color name="colorGray100">#CFD8DC</color>       <!--10%-->
+    <color name="colorGray200">#B0BEC5</color>        <!--20%-->
+    <color name="colorGray75">#bfbfbf</color>
+
+    <color name="colorBag">#300b2c</color>
+    <color name="semitransparent">#9A000000</color>
+
+    <color name="background_all">#E3F3FA</color>
+
+    <color name="gray_text1">#6d6e70</color>
+
+    <color name="purple_200">#AEE3FB</color>
+    <color name="purple_500">#50C6FB</color>
+    <color name="purple_700">#03A9F4</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!--<color name="colorPrimaryDark">#1b2a34</color>-->
+    <!--<color name="colorPrimary">#5a6949</color> // 700-->
+    <!--<color name="colorAccent">#fe964e</color>  //c4d82d-->
+
+    <!--<color name="colorPrimaryDark">#000d1a</color>-->
+    <!--<color name="colorPrimary">#0073e6</color> // 700-->
+    <!--<color name="colorPrimarytrans">#400073e6</color> // 700-->
+    <!--<color name="colorAccent">#a6a6a6</color>  //c4d82d-->
+
+
+    <color name="calendar_header">@color/colorPrimary</color>
+    <color name="calendar_header_title">#FFF</color>
+    <color name="selected_date_circle_color_app">#FF5252</color>
+    <color name="range_bg_color_app">#FFCDD2</color>
+    <!--5a6949-->
+    <!--fe964e orange-->
+    <!--1b2a34 black-->
+
+
+    <color name="colorPrimaryDark11">#F0CA4D</color>
+    <color name="colorPrimaryDark12">#14B278</color>
+    <color name="colorPrimaryDark13">#F09951</color>
+    <color name="colorPrimaryDark14">#ED3752</color>
+    <color name="colorPrimaryDark15">#324D5C</color>
+
+    <color name="colorPrimaryDark16">#579C87</color>
+
+    <!--<color name="colorPrimaryDark">#324D5C</color>-->
+    <!--<color name="colorPrimary">#14B278</color>         700-->
+    <!--<color name="colorAccent">#579C87</color>-->
+
+    <!--<color name="colorPrimaryDark">#19144c</color>-->
+    <!--<color name="colorPrimary">#39b54a</color>         700-->
+    <!--<color name="colorAccent">#689F38</color>  //c4d82d-->
+
+    <!--<color name="colorPrimaryDark">#006064</color>     800-->
+    <!--<color name="colorPrimary">#00838F</color>         700-->
+    <!--<color name="colorAccent">#00ACC1</color>          300-->
+    <color name="colorPrimaryDarkTrans">#4000838F</color>
+    <color name="colorPrimaryGrayTrans">#409E9E9E</color>
+
+    <color name="WhiteText">#FFFFFF</color>      <!--        38% /     50% -->
+    <color name="GrayText">#9E9E9E</color>      <!--        38% /     50% -->
+
+    <!--<color name="colorPrimary">#300b2c</color>-->
+    <!--<color name="colorPrimaryDark">#300b2c</color>-->
+    <!--<color name="colorAccent">#880e4f</color>-->
+
+    <!--<color name="colorAccent">#9e9e9e</color>-->
+    <!--<color name="colorPrimary">#616161</color>-->
+    <!--<color name="colorPrimaryDark">#616161</color>-->
+
+    <!--<color name="colorAccent">#5D6D7E</color>-->
+    <!--<color name="colorPrimary">#2C3E50</color>-->
+    <!--<color name="colorPrimaryDark">#2C3E50</color>-->
+
+    <!--<color name="colorAccent">#5D6D7E</color>-->
+    <!--<color name="colorPrimary">#2C3E50</color>-->
+    <!--<color name="colorPrimaryDark">#2C3E50</color>-->
+
+    <color name="colorTextWhite">#ffffff</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="background_blue">#19144c</color>
+    <color name="background_green">#63bc45</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="paymint_blue">#00558f</color>
+    <color name="paymint_orange">#f8a71a</color>
+    <color name="paymint_green">#167f39</color>
+
+    <color name="colorPrimaryDark2">#33691E</color>
+    <color name="colorPrimary2">#689F38</color>
+    <color name="colorAccent2">#8BC34A</color>
+
+    <color name="colorPrimaryDark3">#B71C1C</color>
+    <color name="colorPrimary3">#C62828</color>
+    <color name="colorAccent3">#F44336</color>
+
+    <color name="colorPrimaryDark4">#880E4F</color>
+    <color name="colorPrimary4">#AD1457</color>
+    <color name="colorAccent4">#E91E63</color>
+
+    <color name="colorPrimaryDark5">#1B5E20</color>
+    <color name="colorPrimary5">#2E7D32</color>
+    <color name="colorAccent5">#4CAF50</color>
+
+    <color name="colorPrimaryDark6">#827717</color>
+    <color name="colorPrimary6">#9E9D24</color>
+    <color name="colorAccent6">#CDDC39</color>
+
+    <color name="colorPrimaryDark7">#BF360C</color>
+    <color name="colorPrimary7">#D84315</color>
+    <color name="colorAccent7">#E64A19</color>
+
+    <color name="colorPrimaryDark8">#BF360C</color>
+    <color name="colorPrimary8">#E65100</color>
+    <color name="colorAccent8">#EF6C00</color>
+
+    <color name="colorPrimaryDark9">#008975</color>
+    <color name="colorPrimary9">#00AA8D</color>
+    <color name="colorAccent9">#00BF9A</color>
+
+    <color name="list_divider">#9E9E9E</color>
+
+    <!--<color name="colorPrimaryDark">#F57F17</color>-->
+    <!--<color name="colorPrimary">#F9A825</color>-->
+    <!--<color name="colorAccent">#607D8B</color>-->
+
+    <color name="colorRouteLine">#0A8F08</color>
+
+    <color name="airline_name">#515151</color>
+    <color name="lbl_price">#787878</color>
+    <color name="departure">#dd000000</color>
+    <color name="tint_arrow">#6E6E6E</color>
+    <color name="duration">#dd595959</color>
+    <color name="common_gray">#D8D8D8</color>
+    <color name="common_text_gray">#848484</color>
+    <color name="background">#EFEFEF</color>
+    <color name="silver">#C0C0C0</color>
+
+
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_40">#999999</color>
+    <color name="orange_500">#E91E63</color>
+    <color name="overlay_light_30">#4dffffff</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="green_400">#66bb6a</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="brand_color">#c13d49</color>
+    <color name="gray_text">#6d6e70</color>
+    <color name="grey">#888787</color>
+    <color name="cardbackground_all">#E0F2FA</color>
+    <color name="BLUE">#0526F8</color>
+
+
+
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_1000">#1a1a1a</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_50">#fafafa</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_80">#37474f</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_900">#212121</color>
+    <color name="gray_bus">#9f9e9e</color>
+
+    <color name="my_booking_heading_color">#2e69b3</color>
+
+    <color name="reasked_color">#61000000</color>
+    <color name="roundtrip_color">#4DAD1457</color>
+    <color name="search_extra">#939393</color>
+    <color name="ratings_green">#3fc299</color>
+    <color name="search_sub">#686868</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorGray200</item>
+        <item>@color/colorGray200</item>
+        <item>@color/colorGray200</item>
+        <item>@color/colorGray200</item>
+        <item>@color/colorGray200</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+    </array>
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="tabscolor">#069dce</color>
+    <color name="c_dark_gray">#696969</color>
+    <color name="top_bar_background">#EBF1DE</color>
+    <color name="top_bar_text_color">#D52736</color>
+
+    ////////////////////////////////////////////////////
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #78d5ef;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    <!--<color name="colorPrimaryDark">#000d1a</color>-->
+    <!--<color name="colorPrimary">#0073e6</color> // 700-->
+    <!--<color name="colorPrimarytrans">#400073e6</color> // 700-->
+    <!--<color name="colorAccent">#a6a6a6</color>  //c4d82d-->
+
+
+
+
+    <color name="colorPrimaryDark">@color/gray_dark</color>
+    <color name="colorPrimary">@color/test_indigo1</color> // 700
+    <color name="colorPrimarytrans">#400073e6</color> // 700
+    <color name="colorAccent">@color/test_gray</color>  //c4d82d
+
+    <color name="test_indigo1">#007bff</color>
+    <!--<color name="test_blue">#007bff</color>-->
+    <color name="test_indigo">#6610f2</color>
+    <!--<color name="test_blue">#706610f2</color>-->
+    <!--<color name="test_blue">#70007bff</color>-->
+
+    <color name="test_blue">@color/my_booking_heading_color</color>
+
+    <color name="test_indigo2">#6610f2</color>
+    <color name="test_purple">#6f42c1</color>
+    <color name="test_pink">#e83e8c</color>
+    <color name="test_red">#dc3545</color>
+    <color name="test_orange">#fd7e14</color>
+    <color name="test_yellow">#ffc107</color>
+    <color name="test_green">#28a745</color>
+    <color name="test_teal">#20c997</color>
+    <color name="test_cyan">#17a2b8</color>
+    <color name="test_white">#fff</color>
+    <color name="test_gray">#6c757d</color>
+    <color name="gray_dark">#343a40</color>
+    <color name="test_primary">#78d5ef</color>
+    <color name="test_secondary">#6c757d</color>
+    <color name="test_success">#28a745</color>
+    <color name="test_info">#17a2b8</color>
+    <color name="test_warning">#ffc107</color>
+    <color name="test_danger">#dc3545</color>
+    <color name="test_light">#f8f9fa</color>
+    <color name="test_dark">#343a40</color>
+
+</resources>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/metrics_56"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/metrics_10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seat_avail"
+                        android:layout_width="@dimen/metrics_26"
+                        android:layout_height="@dimen/metrics_26"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_seat_avail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="Available"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_8" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_500" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seat_selected"
+                        android:layout_width="@dimen/metrics_26"
+                        android:layout_height="@dimen/metrics_26"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_seat_selected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="Selected"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_8" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_500" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seat_ladies_reserved"
+                        android:layout_width="@dimen/metrics_26"
+                        android:layout_height="@dimen/metrics_26"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_seat_ladies_reserved"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="Female"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_8" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_500" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seat_ladies_booked"
+                        android:layout_width="@dimen/metrics_26"
+                        android:layout_height="@dimen/metrics_26"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_seat_ladies_booked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="male"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_8" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_500" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_seat_common_booked"
+                        android:layout_width="@dimen/metrics_26"
+                        android:layout_height="@dimen/metrics_26"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_seat_common_booked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="Booked"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_8" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey_500" />
+
+            <LinearLayout
+                android:id="@+id/layout_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/metrics_10"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="2.0">
+
+
+                <TextView
+                    android:id="@+id/tvLower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/edittextbrodercolorprimary"
+                    android:gravity="center"
+                    android:padding="@dimen/metrics_6"
+                    android:text="Lower"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_14" />
+
+
+                <TextView
+                    android:id="@+id/tvUpper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/edittextbrodercolorwhite"
+                    android:gravity="center"
+                    android:padding="@dimen/metrics_6"
+                    android:text="Upper"
+                    android:textSize="@dimen/text_14" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey_500" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/metrics_30">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Front"
+                    android:textColor="@color/gray_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/metrics_20"
+                    android:background="@drawable/edittext_bg"
+                    android:orientation="vertical"
+                    android:padding="@dimen/metrics_10">
+
+                    <ImageView
+                        android:layout_width="@dimen/metrics_30"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="@dimen/metrics_24"
+                        android:src="@drawable/steering"
+                        app:tint="@color/gray_text1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/metrics_4"
+                        android:layout_marginTop="@dimen/metrics_10"
+                        android:layout_marginRight="@dimen/metrics_4"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:id="@+id/tblSeatLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+
+                        <TableLayout
+                            android:id="@+id/tblSeatLayout1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:text="Rear"
+
+                    android:textColor="@color/gray_text" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/metrics_56"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="5.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/metrics_10">
+
+            <TextView
+                android:id="@+id/tvSeatsSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_12"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_totalFare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_12"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_booknow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8.0"
+            android:background="@color/gray_bus"
+            android:enabled="false"
+            android:text="Select Seat"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+</RelativeLayout>
